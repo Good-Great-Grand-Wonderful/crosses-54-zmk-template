@@ -4,7 +4,7 @@
 #include <dt-bindings/zmk/pointing.h>
 
 / {
-    chosen { zmk,physical-layout = &gggw_crosses_42_layout; };
+    chosen { zmk,physical-layout = &gggw_crosses_54_layout; };
 
     keymap {
         compatible = "zmk,keymap";
