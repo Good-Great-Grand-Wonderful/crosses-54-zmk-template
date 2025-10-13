@@ -2,8 +2,6 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/Good-Great-Grand-Wonderful
-    - name: badjeff
-      url-base: https://github.com/badjeff
     - name: efogdev
       url-base: https://github.com/efogdev
   projects:
@@ -15,6 +13,9 @@ manifest:
       remote: efogdev
       revision: main
     - name: zmk-input-processor-report-rate-limit
+      remote: efogdev
+      revision: main
+    - name: zmk-input-processor-xyz
       remote: badjeff
       revision: main
   self:
